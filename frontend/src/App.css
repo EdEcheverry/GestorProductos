@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.products-container {
+  flex: 1;
+}
+
+.footer {
+  background-color: #333; 
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
